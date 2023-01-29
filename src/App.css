@@ -1,53 +1,9 @@
 .App {
   width: 98.8zvw;
-  height: 100vh;
-  background-color: rgb(250, 249, 252);
+  height: 100%;
+  background-color: rgb(252, 248, 248);
 }
 
 .body {
   background-color: aqua;
-}
-
-.header{
-  width: 99.5%;
-  height: 100px;
-  background-color: #97144d;
-  text-align: center;
-  border-style: solid;
-  border-width: 5px;
-}
-
-.sidebar {
-  width: 250px;
-  height: 81%;
-  background-image: linear-gradient(79deg, #97144d,#97144d 48%, #97144d);
-  text-align: center;
-  position: absolute;
-  top: 105px;
-  left: 0px;
-  border-style: solid;
-  border-width: 5px;
-  
-}
-.center{
-  height: 500px;
-  width: 62%;
-  background-image: linear-gradient(79deg, #999597,#ededf0 48%, #868384);
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-}
-
-.rightbar {
-width: 250px;
-height: 81%;
-background-image: linear-gradient(79deg, #97144d,#97144d 48%, #97144d);
-text-align: center;
-position: absolute;
-top: 105px;
-right: 0px;
-border-style: solid;
-  border-width: 5px;
-
-  
 }
