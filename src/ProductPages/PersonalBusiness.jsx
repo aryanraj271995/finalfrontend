@@ -1,13 +1,49 @@
 import React from 'react'
-import im3 from '../images/im3.png'
-export default function Personal_Business() {
+
+import im0 from '../images/Banner Image/Personal & Business Loan.png'
+import im1 from '../images/ProductSub/Minimal documentation.png'
+import im2 from '../images/ProductSub/Minimum Rs. 50,000.png'
+import im3 from '../images/ProductSub/Easy to Apply.png'
+
+import '../ProductPages/ProductPages.css';
+export default function PersonalBusiness() {
   return (
     <>
-    <section className='savingacc'>
-    <div >Personal & Business Loan
-    <img src={im3} alt="im1" height="470px" width="985px" />
+    <div className='display-cont' >
+          <div class="Banner-image">
+              <img src={im0} alt="im1" height="300px"width="100%"/>
+              <h2>Personal & Business Loan</h2>
+          </div>
     </div>
-    </section>
+    <div class="small-cont">
+              <div>
+              <div>
+              <img src={im1}  alt="im1" height="100px"width="10%"/>
+              <h2>Minimal documentation</h2>
+              <p>1.5% to 2% of loan amount + GST</p>
+              </div>
+              </div>
+    </div>
+
+    <div class="small-cont2">
+              <div>
+              <div>
+              <img src={im2}  alt="im1" height="100px"width="16%"/>
+              <h2>Minimum Rs. 50,000 </h2>
+              <p>minimum age of 21 years</p>
+              </div>
+              </div>
+    </div>
+
+    <div class="small-cont3">
+              <div>
+              <div>
+              <img src={im3}  alt="im1" height="100px"width="45%"/>
+              <h2>Easy to Apply</h2>
+              <p> collateral-free EMI-based Business Loans</p>
+              </div>
+              </div>
+    </div>
     </>
   )
 }

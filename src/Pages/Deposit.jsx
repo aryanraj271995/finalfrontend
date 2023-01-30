@@ -1,7 +1,7 @@
 import React from 'react'
-import im1 from '../images/FD.png'
-import im2 from '../images/Fixed Deposit.png'
-import im3 from '../images/rec.png'
+import im1 from '../images/ProductImage/FD.png'
+import im2 from '../images/ProductImage/Fixed Deposit.png'
+import im3 from '../images/ProductImage/rec.png'
 
 import './Deposit.css';
 
@@ -14,7 +14,7 @@ export default function Deposit() {
 <div class="card">
 <img src={im1} alt="im1" height="200px" width="230px" />
   <div class="container">
-  <h4><b>FD</b></h4> 
+  <h4><b>Fixed Deposits (FD)</b></h4> 
     <a href="/FD" className='linkColor'> 
     <p>Know More</p>
     </a>
@@ -24,7 +24,7 @@ export default function Deposit() {
 <div class="card1">
 <img src={im2} alt="im1" height="200px" width="230px" />
   <div class="container1">
-  <h4><b>Fixed Deposit</b></h4> 
+  <h4><b>digital Fixed Deposit</b></h4> 
     <a href="/FixedDeposit" className='linkColor'> 
     <p>Know More</p>
     </a>
@@ -34,7 +34,7 @@ export default function Deposit() {
 <div class="card2">
 <img src={im3} alt="im1" height="200px" width="230px" />
   <div class="container2">
-  <h4><b>Recurrent Deposit</b></h4> 
+  <h4><b>Recurrent Deposit(RD)</b></h4> 
     <a href="/RecurrentDeposit" className='linkColor'> 
     <p>Know More</p>
     </a> 

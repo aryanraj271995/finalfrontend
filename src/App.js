@@ -23,6 +23,7 @@ import RecurrentDeposit from './ProductPages/RecurrentDeposit';
 import Cards from './Pages/Cards';
 import DebitCard from './ProductPages/DebitCard';
 import CreditCard from './ProductPages/CreditCard';
+import Trans from './ProductPages/Trans';
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route path="/Cards" element={<Cards/>}></Route>
           <Route path="/DebitCard" element={<DebitCard/>}></Route>
           <Route path="/CreditCard" element={<CreditCard/>}></Route>
+          <Route path="/Trans" element={<Trans/>}></Route>
         </Routes>
       </Router>
     </div>

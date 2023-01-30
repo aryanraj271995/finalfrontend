@@ -2,10 +2,10 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import im1 from '../images/Bank Account.png'
-import im2 from '../images/Loan.png'
-import im3 from '../images/Deposit.png'
-import im4 from '../images/Cards.png'
+import im1 from '../CaroselImage/Bank Account.png'
+import im2 from '../CaroselImage/Loan.png'
+import im3 from '../CaroselImage/Deposit.png'
+import im4 from '../CaroselImage/Cards.png'
 
 import './Center.css';
 export default function Center() {

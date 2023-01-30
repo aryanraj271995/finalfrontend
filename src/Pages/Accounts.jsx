@@ -1,7 +1,7 @@
 import React from 'react'
-import im1 from '../images/Saving Account.png'
-import im2 from '../images/Current Account.png'
-import im3 from '../images/Salary Account.png'
+import im1 from '../images/ProductImage/Saving Account.png'
+import im2 from '../images/ProductImage/Current Account.png'
+import im3 from '../images/ProductImage/Salary Account.png'
 
 import './Accounts.css';
 

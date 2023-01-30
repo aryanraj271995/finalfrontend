@@ -1,7 +1,7 @@
 import React from 'react'
-import im1 from '../images/Debit card.png'
-import im2 from '../images/Credit card.png'
-import im3 from '../images/Transit Cards.png'
+import im1 from '../images/ProductImage/Debit card.png'
+import im2 from '../images/ProductImage/Credit card.png'
+import im3 from '../images/ProductImage/Transit Cards.png'
 
 import './Cards.css';
 
@@ -34,8 +34,8 @@ export default function Cards() {
 <div class="card2">
 <img src={im3} alt="im1" height="200px" width="230px" />
   <div class="container2">
-  <h4><b>Prepaid Card</b></h4> 
-    <a href="/DebitCard" className='linkColor'> 
+  <h4><b>Transaction Card</b></h4> 
+    <a href="/Trans" className='linkColor'> 
     <p>Know More</p>
     </a>
   </div>
